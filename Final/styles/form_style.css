@@ -1,0 +1,32 @@
+h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+form {
+    background-color: #4BA3C3;
+    width: 50%;
+    margin: auto;
+}
+
+table {
+    border: 5px;
+    border-style: ridge;
+    border-color: #4BA3C3;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#Content {
+    position: relative;
+    min-height: 100vh;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,130 @@
+html {
+    background-color: crimson;
+    height: 100%;
+}
+
+body {
+    margin: auto;
+    width: 75%;
+    background-color: #CCE6F4;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #4BA3C3;
+}
+
+#Navigation a {
+    color: black;
+}
+
+#Banner {
+    width: 100%;
+}
+
+#Navigation {
+    height: 62.4px;
+    margin: 0;
+}
+
+#Navigation, #ContactInfo {
+    list-style-type: none;
+    padding: 0;
+}
+
+#Navigation li {
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    border-color: black;
+}
+
+#Navigation li:hover {
+    background-color: #175676;
+    color: #BA324F;
+}
+
+#Navigation, #LoginForm, #verify_auth_result {
+    float: left;
+    width: 50%;
+}
+
+#verify_auth_result input, #Welcome {
+    float: right;
+    margin: 5px;
+}
+
+#Welcome {
+    width: 40%;
+    text-align: right;
+}
+
+#admin {
+    width: 20%;
+    float: left;
+}
+
+#LoginForm #Username, #LoginForm #Password {
+    margin-left: auto;
+}
+
+#LoginForm p {
+    width: 100%;
+}
+
+#LoginForm p, #Login {
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+.LoginCol {
+    float: right;
+    height: 100%;
+    width: 146px;
+}
+
+.LoginCol input, .LoginCol p {
+    margin: 5px;
+}
+
+p, h3, li, td {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #0D3244;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #BA324F;
+}
+
+footer {
+    width: 100%;
+    background-color: #4BA3C3;
+}
+
+#ContactInfo, footer p {
+    float: left;
+    margin-left: 20px;
+}
+
+#ContactInfo {
+    width: 70%;
+}
+
+footer p {
+    width: 20%;
+}
+
+header::after, footer::after, #LoginForm::after, body::after, .LoginCol::after {
+    content: "";
+    display: block;
+    clear: both;
+}

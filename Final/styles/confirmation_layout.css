@@ -1,0 +1,42 @@
+h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+table {
+    background-color: #4BA3C3;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    border: 5px;
+    border-style: ridge;
+    border-color: #4BA3C3;
+}
+
+td {
+    margin-left: 5px;
+}
+
+#OrderInfo td {
+    width: 50%;
+}
+
+#Orderedproducts th, #OrderedProducts td {
+    width: 30%;
+    text-align: center;
+}
+
+#Content {
+    position: relative;
+    min-height: 100vh;
+}
+
+#MainContent p {
+    margin-left: 5px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}

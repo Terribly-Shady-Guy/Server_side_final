@@ -1,0 +1,26 @@
+#Overview {
+    width: 70%;
+}
+
+#FeaturedProducts {
+    width: 20%;
+}
+
+#FeaturedProducts img {
+    width: 100%;
+}
+
+#Overview, #FeaturedProducts {
+    float: left;
+    margin-left: 30px;
+}
+
+#MainContent::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+h1 {
+    text-align: center;
+}
